@@ -1,0 +1,57 @@
+@import url('font-awesome.css');
+@font-face {
+    font-family: 'Lato';
+    src: url(http://themes.googleusercontent.com/static/fonts/lato/v6/KT3KS9Aol4WfR6Vas8kNcg.woff);
+}
+@font-face {
+    font-family: 'Lato-bold';
+    src: url(http://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff);
+}
+
+
+body {
+    width: 100%;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size:18px;
+    margin:0;
+}
+#container {margin:0 auto; width:100%;}
+#header { height:100px; background:#FFC0CB; margin-bottom:4px;}
+#menu { height:30px; background:#A0D9FF; margin-bottom:4px;}
+#menu > a:first-child{
+    margin-left: 210px;
+}
+#menu a{
+    color: white;
+    float: left;
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    margin-right: 30px;
+}
+#menu a:hover{color: #fffaf0; text-shadow: 3px 0 12px #FFFB84;}
+
+#mainContent { margin-bottom:5px;}
+#sidebar {
+    float:left;
+    width:200px;
+    min-height:100px;
+    background:#FFFB84;
+}
+
+#content {
+    min-width: 500px;
+    min-height: 480px;
+    margin-left:202px;
+    background:#FFF8B3;
+}
+
+#footer {
+    font-family: lato;
+    font-size: 14px;
+    height:40px;
+    background:#71A3B3; text-align:
+    center; line-height: 40px;
+    color:#A0D9FF ;}
+#footer a{text-decoration: none; color: white;}
+#footer a:hover{color: #fffaf0; text-shadow: 3px 0 12px #fffaf0;}

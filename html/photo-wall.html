@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>wffger Photo</title>
+    <link href="../public/style/layout.css" rel="stylesheet" type="text/css" />
+    <link href="../style/layout.css" rel="stylesheet" type="text/css" />
+    <link href="../style/photo-wall.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="../public/style/blocksit.js"></script>
+    <script src="../public/style/blocksit.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            //vendor script
+            $('#header')
+                    .css({ 'top':-50 })
+                    .delay(1000)
+                    .animate({'top': 0}, 800);
+
+            $('#footer')
+                    .css({ 'bottom':-15 })
+                    .delay(1000)
+                    .animate({'bottom': 0}, 800);
+
+            //blocksit define
+            $(window).load( function() {
+                $('#photo-wall').BlocksIt({
+                    numOfCol: 5,
+                    offsetX: 8,
+                    offsetY: 8
+                });
+            });
+
+            //window resize
+            var currentWidth = 1100;
+            $(window).resize(function() {
+                var winWidth = $(window).width();
+                var conWidth;
+                if(winWidth < 660) {
+                    conWidth = 440;
+                    col = 2
+                } else if(winWidth < 880) {
+                    conWidth = 660;
+                    col = 3
+                } else if(winWidth < 1100) {
+                    conWidth = 880;
+                    col = 4;
+                } else {
+                    conWidth = 1100;
+                    col = 5;
+                }
+
+                if(conWidth != currentWidth) {
+                    currentWidth = conWidth;
+                    $('#photo-wall').width(conWidth);
+                    $('#photo-wall').BlocksIt({
+                        numOfCol: col,
+                        offsetX: 8,
+                        offsetY: 8
+                    });
+                }
+            });
+        });
+    </script>
+    <meta name="Keywords" content="wffger home" />
+    <meta name="author" content"wffger" />
+    <meta name="Description" content="wffger's blog" />
+</head>
+
+<body>
+<div id="container">
+    <div id="header">This is the Header</div>
+    <div id="menu">
+        <a href="about.html">About me</a>
+        <a href="article.html">Articles</a>
+        <a href="photo.html">Photos</a>
+        <a href="connect.html">Connect</a>
+    </div>
+    <div id="mainContent">
+        <div id="sidebar">This is the sidebar</div>
+
+        <div id="content">
+            <div id="photo-wall">
+                <div class="grid">
+                    <div class="imgholder">
+                        <img src="http://www.inwebson.com/demo/blocksit-js/demo2/images/img27.jpg">
+                    </div>
+                    <strong>Sunset Lake</strong>
+                    <p>A peaceful sunset view...</p>
+                    <div class="meta">by j osborn</div>
+
+                </div>
+
+                <div class="grid">
+                    <div class="imgholder">
+                        <img src="http://www.inwebson.com/demo/blocksit-js/demo2/images/img26.jpg">
+                    </div>
+                    <strong>Bridge to Heaven</strong>
+                    <p>Where is the bridge lead to?</p>
+                    <div class="meta">by SigitEko</div>
+                </div>
+                <div class="grid">
+                    <div class="imgholder">
+                        <img src="http://www.inwebson.com/demo/blocksit-js/demo2/images/img15.jpg">
+                    </div>
+                    <strong>Autumn</strong>
+                    <p>The fall of the tree...</p>
+                    <div class="meta">by Lars van de Goor</div>
+                </div>
+                <div class="grid">
+                    <div class="imgholder">
+                        <img src="http://www.inwebson.com/demo/blocksit-js/demo2/images/img23.jpg">
+                    </div>
+                    <strong>Winter Whisper</strong>
+                    <p>Winter feel...</p>
+                    <div class="meta">by Andrea Andrade</div>
+                </div>
+                <div class="grid">
+                    <div class="imgholder">
+                        <img src="../public/img/eb6cb1d537f498c856b9a109b3805644.jpg">
+                    </div>
+                    <strong>Winter Whisper</strong>
+                    <p>Winter feel...</p>
+                    <div class="meta">by Andrea Andrade</div>
+                </div>
+                <div class="grid">
+                    <div class="imgholder">
+                        <img src="../public/img/8e5ca365137e5205098e88808cf2d285.jpg">
+                    </div>
+                    <strong>Winter Whisper</strong>
+                    <p>Winter feel...</p>
+                    <div class="meta">by Andrea Andrade</div>
+                </div>
+                <div class="grid">
+                    <div class="imgholder">
+                        <img src="../public/img/b4db7ad3bc451f300fdc0fca11e2cae85d277397b2a8-4zABo9_fw580.jpg">
+                    </div>
+                    <strong>Winter Whisper</strong>
+                    <p>Winter feel...</p>
+                    <div class="meta">by Andrea Andrade</div>
+                </div>
+                <div class="grid">
+                    <div class="imgholder">
+                        <img src="../public/img/eb6cb1d537f498c856b9a109b3805644.jpg">
+                    </div>
+                    <strong>Winter Whisper</strong>
+                    <p>Winter feel...</p>
+                    <div class="meta">by Andrea Andrade</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="footer">
+        &spades;|&copy 2013 <a href="#">wffger</a>. All Rights Reserved.
+    </div>
+</div>
+</body>
+</html>

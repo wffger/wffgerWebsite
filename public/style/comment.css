@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../font/OpenSans-Regular-webfont.woff);
+}
+
+#comments{
+    width: 70%;
+    margin-left: 50px;
+}
+.box-title{
+    border-bottom: 1px solid #FFC0CB;
+    margin-bottom: 26px;
+}
+.box-title span{
+    color: white;
+    display: block;
+    width: 80px;
+    font-size: 18px;
+    overflow: hidden;
+    padding: 8px 2px 2px 5px;
+    background-color: #A2D9FF;
+    margin: 15px 0 -16px 0;
+}
+
+ul#commentlist{
+    font-size: 14px;
+}
+.comment{
+    overflow: hidden;
+    border-bottom: 1px dashed #A0D9FF;
+    padding: 5px 0;
+    display: block;
+}
+.gravatar{
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 2px;
+}
+.commentText{
+    color: #71A3B3;
+    display: inline-block;
+    overflow: hidden;
+}
+    .comment-author{
+    }
+.commentText p{
+    color: black;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.commentMeta {
+}
+
+#commentlist .children{
+    margin: 15px 20px 0;
+    display: block;
+    overflow: hidden;
+}
+.children .comment{
+    border-top:  1px dashed #A0D9FF;
+    border-bottom: none;
+}
+
+#respond{
+    width: 70%;
+    margin-left: 50px;
+}
+#editform{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#respond-left{
+    display: inline-block;
+    float: left;
+    margin-left: 40px;
+}
+#respond-left textarea{
+    background-color: transparent;
+    border: 1px dashed;
+    padding: 5px 10px;
+}
+#respond-left textarea:focus{
+    border: 1px solid blue;
+}
+
+
+#respond-right{
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    width: 32%;
+}
+#respond-right span{
+
+}
+#respond-right span input{
+    background-color: transparent;
+    border: none;
+    padding: 3px 6px;
+}
+#respond-right span input:hover{
+    border: 1px dashed blue;
+    padding: 2px 6px;
+}
+
+span.rotate{
+}
+span.rotate:hover{
+}
+#submit{
+    background-color: transparent;
+    cursor: pointer;
+    width: 100px;
+}
+#submit:hover{
+    background-color: #A2D9FF;
+    border: none !important;
+    color: white;
+}
