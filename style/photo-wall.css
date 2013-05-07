@@ -42,6 +42,7 @@
 .grid .meta a{
     text-decoration: none;
     color: #A0D9FF;
+    font-size: 13px;
 }
 .grid .meta a:hover{
     text-decoration: none;

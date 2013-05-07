@@ -21,4 +21,3 @@ function finddir($filename, &$dirnum, &$filenum){
 echo "dir sum".$dirnum;
 echo "file sum".$filenum;
 */
-?>

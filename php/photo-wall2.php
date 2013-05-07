@@ -6,7 +6,15 @@
     <link href="../public/style/layout.css" rel="stylesheet" type="text/css" />
     <link href="../style/layout.css" rel="stylesheet" type="text/css" />
     <link href="../style/photo-wall.css" rel="stylesheet" type="text/css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="../public/style/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="../public/style/prettyPhoto.css" type="text/css" type="text/css" media="screen" charset="utf-8" />
+    <script src="../public/style/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function(){
+            $("a[rel^='prettyPhoto']").prettyPhoto(
+            );
+        });
+    </script>
     <script src="../public/style/blocksit.js"></script>
     <script src="../public/style/blocksit.min.js"></script>
     <script>
@@ -73,7 +81,7 @@
     <div id="menu">
         <a href="about.html">About me</a>
         <a href="article.html">Articles</a>
-        <a href="photo.html">Photos</a>
+        <a href="../php/Albums.php">Photos</a>
         <a href="connect.html">Connect</a>
     </div>
     <div id="mainContent">
@@ -84,14 +92,17 @@
 
                 <?php
                     $album=$_GET["album"];
-                    $handle = opendir("../images/Album/$album/");
+                    $album_path="../images/Album/".$album."/";
+                    $handle = opendir($album_path);
                     while (false !== ($file=readdir($handle))){
                         if($file!="." && $file!="..")
                         {
                             $filename = substr($file,0,-4);
                             echo "<div class='grid' \n>";
                                 echo "<div class='imgholder' \n>";
-                                echo " <img src='../images/Album/$album/$file''> \n";
+                                echo " <a href='$album_path$file' rel='prettyPhoto[gallery1]' title='Change'>
+                                        <img src='$album_path$file'><br>
+                                        </a>";
                                 echo "</div> \n";
                                 echo "<strong title='".$filename."'>$filename</strong> \n";
                                 echo "<p>Winter feel...</p> \n";
@@ -99,7 +110,7 @@
                                         <a href=\"javascript:if(confirm('Are you sure?!'))location='delPhoto.php?file=".$file."&ablum=".$album."'\">
                                             <i class='icon-trash' style='margin-left: 80px'></i>
                                         </a>
-                                        <a href='ap.php?file=".$file."&iframe=true&amp;width=600&amp;height=400&amp;' rel='prettyPhoto[iframe]'>
+                                        <a href='ap.php?path=".$album_path."&file=".$file."&iframe=true&width=600&height=400&' rel='prettyPhoto[iframe]'>
                                             <i class='icon-wrench' style='margin-left: 8px'></i>
                                         </a>
                                 </div> \n";

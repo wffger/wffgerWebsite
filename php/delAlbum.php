@@ -1,8 +1,4 @@
 <?php
-$albumname=$_GET['file'];
-echo $albumname;
-echo __FILE__;
-$albumpath="../images/Album/$albumname";
 
 function deldir($dir){
     $handle=opendir($dir);
@@ -25,6 +21,12 @@ function deldir($dir){
         return false;
     }
 }
-
-deldir($albumpath);
-header('location:Albums.php');
+if(isset($_GET['file'])){
+    $albumname=$_GET['file'];
+    $albumpath="../images/Album/$albumname";
+    deldir($albumpath);
+    header('location:Albums.php');
+}
+else{
+    echo "No album was selected.";
+}

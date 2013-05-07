@@ -38,4 +38,5 @@ if(!($new=="" || $new=="none"))
 #echo "<script type=\"text/javascript\">window.opener=null;window.close();</script>";
 #echo "<script type=\"text/javascript\">$.prettyPhoto.close();</script>";
 #echo " <a href=\"#\" onclick=\"$.prettyPhoto.close();\">API call</a>";
-echo "<script type=\"text/javascript\">$.prettyPhoto.close();</script>";
+#echo "<script type=\"text/javascript\">$.prettyPhoto.close();</script>";
+echo "Upload images successfully";
