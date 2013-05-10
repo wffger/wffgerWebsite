@@ -1,3 +1,8 @@
+<?php
+    $refer_url=$_SERVER['REQUEST_URI'];
+    session_start();
+    $_SESSION['refer_url']=$refer_url;
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -74,10 +79,18 @@
                             echo "<span>$file</span> \n";
                             $filenum=0;
                             finddir("../images/Album/$file", $dirnum, $filenum);
-                            echo "<span class='album-meta'> $filenum <i class='icon-picture'></i>
-                            <a href=\"javascript:if(confirm('Are you sure?!'))location='delAlbum.php?file=".$file."'\"> <i class='icon-trash' style='margin-left: 80px'></i></a>
-                            <a href='aa.php?file=".$file."&iframe=true&amp;width=600&amp;height=400&amp;' rel='prettyPhoto[iframe]'><i class='icon-wrench' style='margin-left: 8px'></i></a>
-                            </span> \n";
+
+                            echo "<span class='album-meta'> $filenum <i class='icon-picture'></i>";
+                            if(isset($_SESSION['name'])){
+                                echo "
+                                <a href=\"javascript:if(confirm('Are you sure?!'))location='delAlbum.php?file=".$file."'\">
+                                    <i class='icon-trash' style='margin-left: 80px'></i>
+                                </a>
+                                <a href='aa.php?file=".$file."&iframe=true&amp;width=600&amp;height=400&amp;' rel='prettyPhoto[iframe]'>
+                                    <i class='icon-wrench' style='margin-left: 8px'></i>
+                                </a>";
+                            }
+                            echo "</span> \n";
                             echo "</div>  ";
                         }
                     }
@@ -111,7 +124,7 @@
 
     </div>
     <div id="footer">
-        &spades;|&copy 2013 <a href="#">wffger</a>. All Rights Reserved.
+        &spades;|&copy 2013 <a href="login.php">wffger</a>. All Rights Reserved.
     </div>
 </div>
 </body>

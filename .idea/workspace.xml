@@ -4,7 +4,7 @@
     <list default="true" id="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" name="Default" comment="" />
     <ignored path="wffger.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Albums.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1367651798787" ignored="false" />
+    <file path="/Albums.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368103049568" ignored="false" />
     <file path="/albums.css" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1367503798641" ignored="false" />
     <file path="/photo-wall2.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1367934009869" ignored="false" />
     <file path="/photo-wall.css" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1367929903803" ignored="false" />
@@ -23,6 +23,20 @@
     <file path="/delAlbum.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1367926076075" ignored="false" />
     <file path="/ap.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1367932018281" ignored="false" />
     <file path="/altp.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1367933013286" ignored="false" />
+    <file path="$PROJECT_DIR$/../Course/9/example/BROW1.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368095472841" ignored="false" />
+    <file path="$PROJECT_DIR$/../Course/9/example/index.html" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368096444543" ignored="false" />
+    <file path="$PROJECT_DIR$/../Course/10/example/index.html" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368096535419" ignored="false" />
+    <file path="$PROJECT_DIR$/../Course/10/example/reg.htm" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368096578243" ignored="false" />
+    <file path="$PROJECT_DIR$/../Course/10/example/insert.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368096671266" ignored="false" />
+    <file path="$PROJECT_DIR$/../Course/10/example/main.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368097064579" ignored="false" />
+    <file path="$PROJECT_DIR$/../Course/10/example/config1.inc.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368097147990" ignored="false" />
+    <file path="$PROJECT_DIR$/../Course/10/example/config.inc.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368097337827" ignored="false" />
+    <file path="/conn.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368102525175" ignored="false" />
+    <file path="/log.html" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368099491549" ignored="false" />
+    <file path="$PROJECT_DIR$/../Course/10/example/index.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368099276390" ignored="false" />
+    <file path="/log.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368115234043" ignored="false" />
+    <file path="/login.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368118206341" ignored="false" />
+    <file path="/alter_ad.php" changelist="f2b30b4b-e273-4502-a6b3-939b2d6b73ba" time="1368118042315" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,35 +55,31 @@
     <favorites_list name="wffger" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.717496">
+    <splitter split-orientation="vertical" split-proportion="0.8426966">
       <split-first>
         <leaf>
-          <file leaf-file-name="photo-wall2.php" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/php/photo-wall2.php">
+          <file leaf-file-name="counter.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/php/counter.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="102" column="106" selection-start="3975" selection-end="3975" vertical-scroll-proportion="0.53488374">
-                  <folding>
-                    <element signature="tag#script#5;tag#head#0;tag#html#0" expanded="false" />
-                    <marker date="1367934322742" expanded="true" signature="3977:4095" placeholder="..." />
-                    <marker date="1367934322742" expanded="true" signature="5213:5297" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ap.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/php/ap.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="105" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-6.785714">
+                <state line="22" column="2" selection-start="512" selection-end="512" vertical-scroll-proportion="-8.642858">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="altp.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/php/altp.php">
+          <file leaf-file-name="aa.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/php/aa.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="18" selection-start="572" selection-end="572" vertical-scroll-proportion="-7.178571">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="delAlbum.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/php/delAlbum.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="27" column="32" selection-start="578" selection-end="599" vertical-scroll-proportion="-8.785714">
                   <folding />
                 </state>
               </provider>
@@ -84,28 +94,59 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="delAlbum.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/php/delAlbum.php">
+          <file leaf-file-name="altp.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/php/altp.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="9" selection-start="323" selection-end="323" vertical-scroll-proportion="3.0">
+                <state line="25" column="18" selection-start="572" selection-end="572" vertical-scroll-proportion="-7.964286">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="aa.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/php/aa.php">
+          <file leaf-file-name="Albums.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/php/Albums.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="26.071428">
+                <state line="3" column="38" selection-start="105" selection-end="105" vertical-scroll-proportion="-2.0357144">
+                  <folding>
+                    <marker date="1368103732827" expanded="true" signature="3391:3478" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="log.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/html/log.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="13" selection-start="293" selection-end="293" vertical-scroll-proportion="-3.857143">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="counter.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/php/counter.php">
+          <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/php/login.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="2" selection-start="512" selection-end="512" vertical-scroll-proportion="-10.857142">
+                <state line="58" column="69" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.40511727">
+                  <folding>
+                    <marker date="1368118213944" expanded="true" signature="807:874" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="alter_ad.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/php/alter_ad.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="42" column="39" selection-start="1165" selection-end="1165" vertical-scroll-proportion="-6.785714">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="logout.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/php/logout.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.6785714">
                   <folding />
                 </state>
               </provider>
@@ -115,23 +156,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="alta.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="alta.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/php/alta.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="22" selection-start="163" selection-end="163" vertical-scroll-proportion="-0.7916667">
+                <state line="12" column="5" selection-start="267" selection-end="267" vertical-scroll-proportion="0.6785714">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Albums.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/php/Albums.php">
+          <file leaf-file-name="conn.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/php/conn.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="55" selection-start="661" selection-end="1184" vertical-scroll-proportion="-1.4285715">
-                  <folding>
-                    <element signature="tag#script#2;tag#head#0;tag#html#0" expanded="false" />
-                    <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                  </folding>
+                <state line="5" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="2.6388888">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -157,13 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/style/albums.css" />
-        <option value="$PROJECT_DIR$/public/style/jquery.prettyPhoto.js" />
-        <option value="$PROJECT_DIR$/php/conn.php" />
-        <option value="$PROJECT_DIR$/php/altAlbum.php" />
-        <option value="$PROJECT_DIR$/php/alteralbum.php" />
-        <option value="$PROJECT_DIR$/html/alterAlbum.html" />
-        <option value="$PROJECT_DIR$/php/Albums.php" />
         <option value="$PROJECT_DIR$/php/aa.php" />
         <option value="$PROJECT_DIR$/php/delAlbum.php" />
         <option value="$PROJECT_DIR$/php/delPhoto.php" />
@@ -173,14 +204,22 @@
         <option value="$PROJECT_DIR$/php/ap.php" />
         <option value="$PROJECT_DIR$/php/altp.php" />
         <option value="$PROJECT_DIR$/php/photo-wall2.php" />
+        <option value="$PROJECT_DIR$/html/log.html" />
+        <option value="$PROJECT_DIR$/php/conn.php" />
+        <option value="$PROJECT_DIR$/php/Albums.php" />
+        <option value="$PROJECT_DIR$/php/log.php" />
+        <option value="$PROJECT_DIR$/php/logout.php" />
+        <option value="$PROJECT_DIR$/php/alter_ad.php" />
+        <option value="$PROJECT_DIR$/php/login.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
-    <option name="width" value="683" />
-    <option name="height" value="768" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -287,6 +326,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wffger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wffgerWebsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -294,19 +347,23 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="settings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Course" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\Study\Sophomore 2nd term\Website\wamp\www\wffgerWebsite\php" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.conn.php">
+    <configuration default="false" name="conn.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/php/conn.php">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -321,7 +378,14 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.conn.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.conn.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
@@ -351,16 +415,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="683" height="768" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.67255217" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45571658" sideWeight="0.8714992" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.9598716" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19935691" sideWeight="0.9969278" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -442,48 +506,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="80" selection-start="3550" selection-end="3550" vertical-scroll-proportion="-6.107143" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/style/prettyPhoto.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="10" selection-start="19847" selection-end="19847" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/conn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="223" selection-end="223" vertical-scroll-proportion="-1.2142857" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/albums.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="19" selection-start="666" selection-end="681" vertical-scroll-proportion="0.58849555" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/style/jquery.prettyPhoto.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="545" column="41" selection-start="31329" selection-end="31330" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Homework/Tutorial/prettyPhoto_compressed_3.1.5/altAlbum.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.13919415">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/Albums.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="55" selection-start="661" selection-end="1184" vertical-scroll-proportion="-1.4285715">
-          <folding>
-            <element signature="tag#script#2;tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="545" column="41" selection-start="31329" selection-end="31330" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/photo-wall.css">
@@ -493,9 +518,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/photo-wall2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="44" selection-start="5038" selection-end="5038" vertical-scroll-proportion="-4.071429">
+          <folding>
+            <marker date="1367934322742" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/ap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="105" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-3.2142856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/counter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="2" selection-start="512" selection-end="512" vertical-scroll-proportion="-8.642858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/aa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/alta.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="163" selection-end="163" vertical-scroll-proportion="-0.7916667">
+        <state line="12" column="5" selection-start="267" selection-end="267" vertical-scroll-proportion="0.6785714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/altp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="18" selection-start="572" selection-end="572" vertical-scroll-proportion="-7.964286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/conn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="2.6388888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/delAlbum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="32" selection-start="578" selection-end="599" vertical-scroll-proportion="-8.785714">
           <folding />
         </state>
       </provider>
@@ -507,48 +583,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/altp.php">
+    <entry file="file://$PROJECT_DIR$/php/logout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="18" selection-start="572" selection-end="572" vertical-scroll-proportion="-7.178571">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.6785714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/ap.php">
+    <entry file="file://$PROJECT_DIR$/php/alter_ad.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="105" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-6.785714">
+        <state line="42" column="39" selection-start="1165" selection-end="1165" vertical-scroll-proportion="-6.785714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/delAlbum.php">
+    <entry file="file://$PROJECT_DIR$/php/Albums.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="323" selection-end="323" vertical-scroll-proportion="3.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/aa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="26.071428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/counter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="2" selection-start="512" selection-end="512" vertical-scroll-proportion="-10.857142">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/photo-wall2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="106" selection-start="3975" selection-end="3975" vertical-scroll-proportion="0.53488374">
+        <state line="3" column="38" selection-start="105" selection-end="105" vertical-scroll-proportion="-2.0357144">
           <folding>
-            <element signature="tag#script#5;tag#head#0;tag#html#0" expanded="false" />
-            <marker date="1367934322742" expanded="true" signature="3977:4095" placeholder="..." />
-            <marker date="1367934322742" expanded="true" signature="5213:5297" placeholder="..." />
+            <marker date="1368103732827" expanded="true" signature="3391:3478" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="293" selection-end="293" vertical-scroll-proportion="-3.857143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="69" selection-start="1574" selection-end="1574" vertical-scroll-proportion="0.40511727">
+          <folding>
+            <marker date="1368118213944" expanded="true" signature="807:874" placeholder="..." />
           </folding>
         </state>
       </provider>
