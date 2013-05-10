@@ -10,11 +10,17 @@
     <meta charset="UTF-8">
     <style type="text/css">
         form{
-            width: 200px;
+            width: 156px;
             margin: 100px auto;
         }
         form input{
             display: block;
+        }
+        .line{
+            display: inline-block;
+        }
+        .right{
+            float: right;
         }
     </style>
 </head>
@@ -23,8 +29,9 @@
         <input type="hidden" name="originator" value="<?=$seed?>">
         <input type="text" name="name">
         <input type="password" name="pwd">
-        <input type="submit" name="submit" value="Log in">
-        <a href="alter_ad.php">Change password.</a>
+        <input class="line" type="submit" name="submit" value="Log in">
+        <a class="right" href="login.php?action=logout">Log out</a><br>
+        <a class="right" href="alter_ad.php">Alter password</a>
     </form>
 </body>
 </html>
@@ -47,6 +54,15 @@
     }
 </SCRIPT>
 <?php
+    if(@$_GET['action'] == "logout"){
+        unset($_SESSION['seed']);
+        print_r($_SESSION);
+        unset($_SESSION['name']);
+        print_r($_SESSION);
+        session_destroy();
+        print_r($_SESSION);
+        echo "<script>location.href='".$_SESSION['refer_url']."';</script>";
+    }
      #if(isset($_POST) && @$_POST['originator']==$_SESSION['seed']){
      if(isset($_POST['originator'])){
      #if(isset($_POST['name'])){
@@ -67,8 +83,8 @@
             $_SESSION['name']=$name;
             mysql_close($hd);
             unset($_POST['name']);
-            #echo "<script>location.href='".$_SESSION['refer_url']."';</script>";
-            header('location:Albums.php');
+            echo "<script>location.href='".$_SESSION['refer_url']."';</script>";
+            #header('location:Albums.php');
             #echo "<script>history.go(-1)</script>";
         }
     }

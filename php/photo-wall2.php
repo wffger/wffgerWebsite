@@ -81,7 +81,7 @@
     <div id="menu">
         <a href="about.html">About me</a>
         <a href="article.html">Articles</a>
-        <a href="../php/Albums.php">Photos</a>
+        <a href="../php/Albums.php">Albums</a>
         <a href="connect.html">Connect</a>
     </div>
     <div id="mainContent">
